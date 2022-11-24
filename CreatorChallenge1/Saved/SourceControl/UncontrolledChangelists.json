@@ -5,7 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/Content/Levels/TestLevel.umap"
+				"C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/Content/Levels/TestLevel.umap",
+				"C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/Content/Materials/Ground.uasset",
+				"C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/Content/BluePrints/CameraActor.uasset",
+				"C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/Content/BluePrints/PlayerPawn.uasset"
 			]
 		}
 	]
