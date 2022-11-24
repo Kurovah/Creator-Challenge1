@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\danny\\documents\\github\\creator-challenge1\\creatorchallenge1\\intermediate\\source\\creatorchallenge1.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\danny\\documents\\github\\creator-challenge1\\creatorchallenge1\\intermediate\\build\\win64\\creatorchallenge1\\development\\core\\sharedpch.core.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\danny\\documents\\github\\creator-challenge1\\creatorchallenge1\\intermediate\\build\\win64\\unrealgame\\development\\creatorchallenge1\\definitions.creatorchallenge1.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
