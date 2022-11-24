@@ -1173,3 +1173,514 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2022.11.24-16.09.25:842][  0]LogAssetRegistry: Asset discovery search completed in 10.9920 seconds
 [2022.11.24-16.09.25:854][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
 [2022.11.24-16.09.26:203][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.24-16.10.43:703][981]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2022.11.24-16.10.43:731][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.11.24-16.11.21:370][256]LogDerivedDataCache: C:/Users/danny/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.497 and deleted 0 files with total size 0 MiB. Scanned 2125 files in 2116 folders with total size 57 MiB.
+[2022.11.24-16.11.26:974][264]LogSlate: Took 0.009423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.24-16.12.02:902][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.24-16.12.02:976][502]PIE: New page: SIE session: LoginLevel (24 Nov 2022, 16:12:02)
+[2022.11.24-16.12.03:087][502]LogOnline: Error: EOS: UEOSSettings::AutoGetSettingsForArtifact() failed due to missing config object specified. Check your project settings
+[2022.11.24-16.12.03:087][502]LogOnline: Error: EOS: FOnlineSubsystemEOS::PlatformCreate() failed to find artifact settings object for artifact ()
+[2022.11.24-16.12.03:088][502]LogOnline: Warning: EOS: EOS API failed to initialize!
+[2022.11.24-16.12.03:114][502]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.11.24-16.12.03:115][502]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.11.24-16.12.03:128][502]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LoginLevel
+[2022.11.24-16.12.03:348][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.213750s)
+[2022.11.24-16.12.03:348][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LoginLevel.LoginLevel to /Game/Levels/UEDPIE_0_LoginLevel.LoginLevel (0.220976s)
+[2022.11.24-16.12.03:378][502]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.24-16.12.03:421][502]LogAIModule: Creating AISystem for world LoginLevel
+[2022.11.24-16.12.03:462][502]LogPlayLevel: PIE: World Init took: (0.112468s)
+[2022.11.24-16.12.03:675][502]LogUObjectHash: Compacting FUObjectHashTables data took   8.55ms
+[2022.11.24-16.12.03:702][502]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.11.24-16.12.03:706][502]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.24-16.12.03:706][502]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.24-16.12.03:706][502]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.24-16.12.03:706][502]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.24-16.12.03:706][502]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.24-16.12.03:706][502]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.24-16.12.03:706][502]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.24-16.12.03:707][502]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.24-16.12.03:718][502]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.24-16.12.03:718][502]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.24-16.12.03:718][502]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.24-16.12.03:729][502]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.24-16.12.03:832][502]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.11.24-16.12.03:857][502]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.24-16.12.03:858][502]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.24-16.12.03:858][502]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.24-16.12.03:872][502]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.11.24-16.12.03:873][502]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.11.24-16.12.03:877][502]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.11.24-16.12.03:878][502]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.11.24-16.12.03:879][502]LogInit: FAudioDevice initialized.
+[2022.11.24-16.12.03:880][502]LogAudio: Display: Audio Device (ID: 2) registered with world 'LoginLevel'.
+[2022.11.24-16.12.03:946][502]LogLoad: Game class is 'GameModeBase'
+[2022.11.24-16.12.03:982][502]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LoginLevel.LoginLevel up for play (max tick rate 60) at 2022.11.24-16.12.03
+[2022.11.24-16.12.03:987][502]LogWorld: Bringing up level for play took: 0.038518
+[2022.11.24-16.12.04:006][502]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2022.11.24-16.12.04:018][502]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.24-16.12.04:185][502]PIE: Server logged in
+[2022.11.24-16.12.04:191][502]PIE: Play in editor total start time 1.326 seconds.
+[2022.11.24-16.12.07:389][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.24-16.12.07:389][623]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LoginLevel
+[2022.11.24-16.12.07:393][623]LogWorld: UWorld::CleanupWorld for LoginLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.24-16.12.07:395][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.12.07:405][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.24-16.12.07:409][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.12.07:428][623]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.24-16.12.07:428][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.24-16.12.07:430][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.24-16.12.07:437][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.24-16.12.07:450][623]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2022.11.24-16.12.07:486][624]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.11.24-16.12.10:336][792]LogDebuggerCommands: Repeating last play command: Simulate
+[2022.11.24-16.12.10:347][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.24-16.12.10:347][792]PIE: New page: SIE session: LoginLevel (24 Nov 2022, 16:12:10)
+[2022.11.24-16.12.10:348][792]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LoginLevel
+[2022.11.24-16.12.10:352][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004111s)
+[2022.11.24-16.12.10:352][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LoginLevel.LoginLevel to /Game/Levels/UEDPIE_0_LoginLevel.LoginLevel (0.004145s)
+[2022.11.24-16.12.10:352][792]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.24-16.12.10:352][792]LogAIModule: Creating AISystem for world LoginLevel
+[2022.11.24-16.12.10:353][792]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2022.11.24-16.12.10:365][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.11.24-16.12.10:366][792]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.11.24-16.12.10:366][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.24-16.12.10:366][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.24-16.12.10:366][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.24-16.12.10:366][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.24-16.12.10:366][792]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.24-16.12.10:366][792]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.24-16.12.10:366][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.24-16.12.10:366][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.24-16.12.10:367][792]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.24-16.12.10:367][792]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.24-16.12.10:367][792]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.24-16.12.10:369][792]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.24-16.12.10:393][792]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.11.24-16.12.10:394][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.24-16.12.10:394][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.24-16.12.10:394][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.24-16.12.10:397][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.11.24-16.12.10:397][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.11.24-16.12.10:399][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.11.24-16.12.10:399][792]LogInit: FAudioDevice initialized.
+[2022.11.24-16.12.10:399][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.11.24-16.12.10:399][792]LogAudio: Display: Audio Device (ID: 3) registered with world 'LoginLevel'.
+[2022.11.24-16.12.10:402][792]LogLoad: Game class is 'GameModeBase'
+[2022.11.24-16.12.10:402][792]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LoginLevel.LoginLevel up for play (max tick rate 60) at 2022.11.24-16.12.10
+[2022.11.24-16.12.10:402][792]LogWorld: Bringing up level for play took: 0.000596
+[2022.11.24-16.12.10:404][792]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2022.11.24-16.12.10:405][792]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.24-16.12.10:406][792]PIE: Server logged in
+[2022.11.24-16.12.10:407][792]PIE: Play in editor total start time 0.06 seconds.
+[2022.11.24-16.12.15:419][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.24-16.12.15:420][ 54]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LoginLevel
+[2022.11.24-16.12.15:420][ 54]LogWorld: UWorld::CleanupWorld for LoginLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.24-16.12.15:420][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.12.15:423][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.24-16.12.15:425][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.12.15:438][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.24-16.12.15:438][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.24-16.12.15:439][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.24-16.12.15:452][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   7.40ms
+[2022.11.24-16.12.15:502][ 57]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.11.24-16.12.20:658][344]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/CreatorChallenge1.uproject" Turnkey -command=VerifySdk -UpdateIfNeeded -platform=Win64 -noturnkeyvariables -device=LAPTOP-I19E2VM6 -utf8output -WaitForUATMutex  -EditorIO -EditorIOPort=50785  -project="C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/CreatorChallenge1.uproject"" -nocompile -nocompileuat ]
+[2022.11.24-16.12.20:784][344]UATHelper: Verifying SDK and Device (Windows): Running AutomationTool...
+[2022.11.24-16.12.20:861][344]UATHelper: Verifying SDK and Device (Windows): Using bundled DotNet SDK version: 6.0.302
+[2022.11.24-16.12.20:930][345]LogAudioMixer: Warning: Audio Thread Command from InitSource() took 1.804100 milleseconds to execute
+[2022.11.24-16.12.21:036][349]UATHelper: Verifying SDK and Device (Windows): Starting AutomationTool...
+[2022.11.24-16.12.21:058][351]UATHelper: Verifying SDK and Device (Windows): Parsing command line: -ScriptsForProject=C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/CreatorChallenge1.uproject Turnkey -command=VerifySdk -UpdateIfNeeded -platform=Win64 -noturnkeyvariables -device=LAPTOP-I19E2VM6 -utf8output -WaitForUATMutex -EditorIO -EditorIOPort=50785 -project=C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/CreatorChallenge1.uproject -nocompile -nocompileuat
+[2022.11.24-16.12.21:190][359]UATHelper: Verifying SDK and Device (Windows): Initializing script modules...
+[2022.11.24-16.12.21:596][381]UATHelper: Verifying SDK and Device (Windows): Total script module initialization time: 0.41 s.
+[2022.11.24-16.12.22:209][417]UATHelper: Verifying SDK and Device (Windows): Executing commands...
+[2022.11.24-16.12.22:318][424]UATHelper: Verifying SDK and Device (Windows): Installed Sdk validity:
+[2022.11.24-16.12.22:318][424]UATHelper: Verifying SDK and Device (Windows): Win64: (Status=Valid, MinAllowed_Sdk=10.0.00000.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.19041.0, Allowed_AutoSdk=10.0.18362.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists")
+[2022.11.24-16.12.22:318][424]UATHelper: Verifying SDK and Device (Windows): Win64@LAPTOP-I19E2VM6: (Name=LAPTOP-I19E2VM6, Type=Computer, Status=Valid, , Flags="Device_InstallSoftwareValid")
+[2022.11.24-16.12.22:329][425]UATHelper: Verifying SDK and Device (Windows): Scanning for envvar changes...
+[2022.11.24-16.12.22:329][425]UATHelper: Verifying SDK and Device (Windows): ... done! 
+[2022.11.24-16.12.22:329][425]UATHelper: Verifying SDK and Device (Windows): Cleaning Temp Paths...
+[2022.11.24-16.12.22:329][425]UATHelper: Verifying SDK and Device (Windows): BUILD SUCCESSFUL
+[2022.11.24-16.12.22:340][425]UATHelper: Verifying SDK and Device (Windows): AutomationTool executed for 0h 0m 1s
+[2022.11.24-16.12.22:340][425]UATHelper: Verifying SDK and Device (Windows): AutomationTool exiting with ExitCode=0 (Success)
+[2022.11.24-16.12.22:410][427]LogUObjectHash: Compacting FUObjectHashTables data took  13.17ms
+[2022.11.24-16.12.22:419][427]LogPlayLevel: Launcher Device ID: Windows@LAPTOP-I19E2VM6
+[2022.11.24-16.12.22:424][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.24-16.12.22:431][427]LogLauncherProfile: Project requires temp target (OnlineSubsystemEOS plugin is enabled)
+[2022.11.24-16.12.22:431][427]LogLauncherProfile: Unable to use promoted target - ../../../../../../Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/Binaries/Win64/UnrealGame.target does not exist.
+[2022.11.24-16.12.23:165][450]LogPlayLevel: UAT: Running AutomationTool...
+[2022.11.24-16.12.23:319][460]LogPlayLevel: UAT: Using bundled DotNet SDK version: 6.0.302
+[2022.11.24-16.12.23:341][461]LogPlayLevel: UAT: Starting AutomationTool...
+[2022.11.24-16.12.23:418][466]LogPlayLevel: UAT: Parsing command line: -ScriptsForProject=C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/CreatorChallenge1.uproject BuildCookRun -project=C:/Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/CreatorChallenge1.uproject -noP4 -clientconfig=Development -serverconfig=Development -nocompile -nocompileeditor -installed -unrealexe="C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -utf8output -platform=Win64 -build -cook -map=/Game/Levels/LoginLevel+/Game/Levels/LoginLevel -CookCultures=en -unversionedcookedcontent -stage -deploy -cmdline="/Game/Levels/LoginLevel -Messaging" -device=Windows@LAPTOP-I19E2VM6 -addcmdline="-SessionId=E822D22647ACC6752A6C019A61126CBE -SessionOwner='danny' -SessionName='Launch On Device'  " -run
+[2022.11.24-16.12.23:724][482]LogPlayLevel: UAT: Initializing script modules...
+[2022.11.24-16.12.24:229][512]LogPlayLevel: UAT: Total script module initialization time: 0.30 s.
+[2022.11.24-16.12.24:250][514]LogPlayLevel: UAT: Executing commands...
+[2022.11.24-16.12.24:733][543]LogPlayLevel: UAT: Setting up ProjectParams for C:\Users\danny\Documents\GitHub\Creator-Challenge1\CreatorChallenge1\CreatorChallenge1.uproject
+[2022.11.24-16.12.26:924][674]LogPlayLevel: UAT: CreatorChallenge1.uproject requires a temporary target.cs to be generated (OnlineSubsystemEOS plugin is enabled)
+[2022.11.24-16.12.26:946][675]LogPlayLevel: UAT: ********** BUILD COMMAND STARTED **********
+[2022.11.24-16.12.26:976][677]LogPlayLevel: Completed Launch On Stage: Launch Task, Time: 4.040187
+[2022.11.24-16.12.28:284][750]LogPlayLevel: UAT: Running: C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\ThirdParty\DotNet\6.0.302\windows\dotnet.exe "C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" CreatorChallenge1 Win64 Development -Project=C:\Users\danny\Documents\GitHub\Creator-Challenge1\CreatorChallenge1\CreatorChallenge1.uproject  C:\Users\danny\Documents\GitHub\Creator-Challenge1\CreatorChallenge1\CreatorChallenge1.uproject -NoUBTMakefiles  -remoteini="C:\Users\danny\Documents\GitHub\Creator-Challenge1\CreatorChallenge1" -skipdeploy -Manifest=C:\Users\danny\Documents\GitHub\Creator-Challenge1\CreatorChallenge1\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\danny\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.1\UBT-CreatorChallenge1-Win64-Development.txt"
+[2022.11.24-16.12.28:624][765]LogPlayLevel: UAT: Log file: C:\Users\danny\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.1\UBT-CreatorChallenge1-Win64-Development.txt
+[2022.11.24-16.12.32:930][ 15]LogPlayLevel: UAT: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\danny\Documents\GitHub\Creator-Challenge1).
+[2022.11.24-16.12.33:061][ 23]LogPlayLevel: UAT: Writing manifest to C:\Users\danny\Documents\GitHub\Creator-Challenge1\CreatorChallenge1\Intermediate\Build\Manifest.xml
+[2022.11.24-16.12.33:072][ 24]LogPlayLevel: UAT: Target is up to date
+[2022.11.24-16.12.33:083][ 24]LogPlayLevel: UAT: Total execution time: 5.42 seconds
+[2022.11.24-16.12.33:105][ 26]LogPlayLevel: UAT: Took 6.1429652s to run dotnet.exe, ExitCode=0
+[2022.11.24-16.12.33:105][ 26]LogPlayLevel: UAT: Build command time: 6.18 s
+[2022.11.24-16.12.33:105][ 26]LogPlayLevel: UAT: ********** BUILD COMMAND COMPLETED **********
+[2022.11.24-16.12.33:116][ 26]LogPlayLevel: UAT: ********** COOK COMMAND STARTED **********
+[2022.11.24-16.12.33:116][ 26]LogPlayLevel: UAT: HasMapsToCook /Game/Levels/LoginLevel+/Game/Levels/LoginLevel
+[2022.11.24-16.12.33:116][ 26]LogPlayLevel: UAT: Params.HasMapsToCook /Game/Levels/LoginLevel+/Game/Levels/LoginLevel
+[2022.11.24-16.12.33:116][ 26]LogPlayLevel: UAT: Running UnrealEditor Cook for project C:\Users\danny\Documents\GitHub\Creator-Challenge1\CreatorChallenge1\CreatorChallenge1.uproject
+[2022.11.24-16.12.33:116][ 26]LogPlayLevel: UAT: Commandlet log file is C:\Program Files\Epic Games\UE_5.1\Engine\Programs\AutomationTool\Saved\Cook-2022.11.24-16.12.33.txt
+[2022.11.24-16.12.33:242][ 34]LogPlayLevel: Completed Launch On Stage: Build Task, Time: 5.762062
+[2022.11.24-16.12.34:969][130]LogPlayLevel: UAT: Running: C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\Win64\UnrealEditor-Cmd.exe C:\Users\danny\Documents\GitHub\Creator-Challenge1\CreatorChallenge1\CreatorChallenge1.uproject -run=Cook -Map=/Game/Levels/LoginLevel+/Game/Levels/LoginLevel -CookCultures=en -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.1\Engine\Programs\AutomationTool\Saved\Cook-2022.11.24-16.12.33.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2022.11.24-16.12.34:969][130]LogPlayLevel: UAT: LogConfig: Display: Loading HoloLens ini files took 0.06 seconds
+[2022.11.24-16.12.34:980][131]LogPlayLevel: UAT: LogConfig: Display: Loading IOS ini files took 0.06 seconds
+[2022.11.24-16.12.35:013][132]LogPlayLevel: UAT: LogConfig: Display: Loading Android ini files took 0.07 seconds
+[2022.11.24-16.12.35:035][133]LogPlayLevel: UAT: LogConfig: Display: Loading Linux ini files took 0.09 seconds
+[2022.11.24-16.12.35:035][133]LogPlayLevel: UAT: LogConfig: Display: Loading Mac ini files took 0.06 seconds
+[2022.11.24-16.12.35:046][134]LogPlayLevel: UAT: LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+[2022.11.24-16.12.35:068][135]LogPlayLevel: UAT: LogConfig: Display: Loading LinuxArm64 ini files took 0.09 seconds
+[2022.11.24-16.12.35:090][136]LogPlayLevel: UAT: LogConfig: Display: Loading Unix ini files took 0.07 seconds
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogConfig: Display: Loading Windows ini files took 0.06 seconds
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+[2022.11.24-16.12.35:396][154]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/UVEditor/Content/' mounted to '/UVEditor/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+[2022.11.24-16.12.35:407][155]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+[2022.11.24-16.12.36:065][194]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+[2022.11.24-16.12.36:142][199]LogPlayLevel: UAT: LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+[2022.11.24-16.12.36:153][200]LogPlayLevel: Warning: UAT: LogOnline: Warning: OSS: TryLoadSubsystemAndSetDefault: OnlineFactories does not contain [EOS]
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogHAL: Display: Platform has ~ 8 GB [8424574976 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.8
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2022.11.24-16.12.36:240][205]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.6.dll
+[2022.11.24-16.12.36:251][206]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.11.24-16.12.36:262][206]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.11.24-16.12.36:273][207]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.11.24-16.12.36:273][207]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.11.24-16.12.36:284][208]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2022.11.24-16.12.36:284][208]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2022.11.24-16.12.36:284][208]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.11.24-16.12.36:284][208]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.11.24-16.12.36:284][208]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.11.24-16.12.36:284][208]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2022.11.24-16.12.36:295][208]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.11.24-16.12.36:295][208]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.11.24-16.12.36:306][209]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2022.11.24-16.12.36:306][209]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2022.11.24-16.12.36:306][209]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2022.11.24-16.12.36:317][210]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.11.24-16.12.36:317][210]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.11.24-16.12.36:317][210]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.11.24-16.12.36:317][210]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2022.11.24-16.12.36:317][210]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.11.24-16.12.36:339][211]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.11.24-16.12.37:314][270]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.11.24-16.12.37:347][271]LogPlayLevel: UAT: LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.11.24-16.12.37:347][271]LogPlayLevel: UAT: LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1433 MiB)
+[2022.11.24-16.12.37:347][271]LogPlayLevel: UAT: LogDerivedDataCache: Display: Performance to C:/Users/danny/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.05ms. RandomReadSpeed=68.77MBs, RandomWriteSpeed=62.15MBs. Assigned SpeedClass 'Local'
+[2022.11.24-16.12.37:358][272]LogPlayLevel: UAT: LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2022.11.24-16.12.39:003][370]LogPlayLevel: UAT: LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2022.11.24-16.12.39:003][370]LogPlayLevel: UAT: LogShaderCompilers: Display: Using Local Shader Compiler with 5 workers.
+[2022.11.24-16.12.39:069][374]LogPlayLevel: UAT: LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.11.24-16.12.40:286][446]LogPlayLevel: UAT: LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.11.24-16.12.40:286][446]LogPlayLevel: UAT: LogEditorDomain: Display: EditorDomain is Disabled
+[2022.11.24-16.12.40:286][446]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2022.11.24-16.12.40:286][446]LogPlayLevel: UAT: LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2022.11.24-16.12.40:297][447]LogPlayLevel: UAT: LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.11.24-16.12.42:511][579]LogPlayLevel: UAT: LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/danny/Documents/GitHub/Creator-Challenge1/CreatorChallenge1/Intermediate/ShaderAutogen/PCD3D_ES3_1/AutogenShaderHeaders.ush
+[2022.11.24-16.12.45:832][777]LogPlayLevel: UAT: LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.11.24-16.12.45:832][777]LogPlayLevel: UAT: LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.11.24-16.12.46:830][836]LogPlayLevel: UAT: LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.24-16.12.47:037][849]LogPlayLevel: UAT: LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.24-16.12.47:345][867]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.11.24-16.12.47:345][867]LogPlayLevel: UAT: LogEditorDomain: Display: Class /Script/AnimationData.AnimationSequencerDataModel is imported by a package but does not exist in memory. EditorDomain keys for packages using it will be invalid if it still exists.
+[2022.11.24-16.12.47:345][867]LogPlayLevel: UAT: 	To clear this message, resave packages that use the deleted class, or load its module earlier than the packages that use it are referenced.
+[2022.11.24-16.12.47:389][870]LogPlayLevel: UAT: LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 0MiB, MemoryMinFreeVirtual 2048MiB, MemoryMinFreePhysical 2048MiB
+[2022.11.24-16.12.47:542][879]LogPlayLevel: UAT: LogCook: Display: Waiting for Asset Registry
+[2022.11.24-16.12.47:542][879]LogPlayLevel: UAT: LogCook: Display: Clearing all cooked content for platform Windows
+[2022.11.24-16.15.04:773][653]LogPlayLevel: Completed Launch On Stage: Cook Task, Time: 151.027595
+[2022.11.24-16.15.12:922][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.24-16.15.12:922][122]PIE: New page: PIE session: LoginLevel (24 Nov 2022, 16:15:12)
+[2022.11.24-16.15.12:922][122]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LoginLevel
+[2022.11.24-16.15.12:925][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002538s)
+[2022.11.24-16.15.12:925][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LoginLevel.LoginLevel to /Game/Levels/UEDPIE_0_LoginLevel.LoginLevel (0.002576s)
+[2022.11.24-16.15.12:925][122]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.24-16.15.12:925][122]LogAIModule: Creating AISystem for world LoginLevel
+[2022.11.24-16.15.12:926][122]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2022.11.24-16.15.12:940][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.11.24-16.15.12:941][122]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.11.24-16.15.12:941][122]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.24-16.15.12:941][122]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.24-16.15.12:941][122]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.24-16.15.12:941][122]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.24-16.15.12:941][122]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.24-16.15.12:941][122]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.24-16.15.12:941][122]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.24-16.15.12:941][122]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.24-16.15.12:942][122]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.24-16.15.12:942][122]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.24-16.15.12:942][122]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.24-16.15.12:944][122]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.24-16.15.12:976][122]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.11.24-16.15.12:977][122]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.24-16.15.12:977][122]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.24-16.15.12:977][122]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.24-16.15.12:978][122]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.11.24-16.15.12:978][122]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.11.24-16.15.12:981][122]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.11.24-16.15.12:981][122]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.11.24-16.15.12:981][122]LogInit: FAudioDevice initialized.
+[2022.11.24-16.15.12:981][122]LogAudio: Display: Audio Device (ID: 4) registered with world 'LoginLevel'.
+[2022.11.24-16.15.12:984][122]LogLoad: Game class is 'GameModeBase'
+[2022.11.24-16.15.12:985][122]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LoginLevel.LoginLevel up for play (max tick rate 60) at 2022.11.24-16.15.12
+[2022.11.24-16.15.12:985][122]LogWorld: Bringing up level for play took: 0.001097
+[2022.11.24-16.15.12:988][122]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2022.11.24-16.15.13:001][122]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.11.24-16.15.13:002][122]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.11.24-16.15.13:003][122]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.11.24-16.15.13:004][122]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2022.11.24-16.15.13:008][122]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.24-16.15.13:008][122]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2022.11.24-16.15.13:011][122]PIE: Server logged in
+[2022.11.24-16.15.13:012][122]PIE: Play in editor total start time 0.09 seconds.
+[2022.11.24-16.15.13:012][122]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.24-16.15.13:013][122]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2022.11.24-16.15.13:013][122]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.11.24-16.15.13:014][122]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.24-16.15.13:014][122]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.24-16.15.13:014][122]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.24-16.15.13:014][122]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.24-16.15.13:014][122]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.24-16.15.13:014][122]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.24-16.15.13:014][122]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.24-16.15.13:014][122]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.24-16.15.13:014][122]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.24-16.15.13:014][122]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.24-16.15.13:014][122]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.24-16.15.13:017][122]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.24-16.15.13:042][122]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.11.24-16.15.13:042][122]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.24-16.15.13:043][122]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.24-16.15.13:043][122]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.24-16.15.13:047][122]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.11.24-16.15.13:047][122]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.11.24-16.15.13:049][122]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.11.24-16.15.13:049][122]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.11.24-16.15.13:049][122]LogInit: FAudioDevice initialized.
+[2022.11.24-16.15.13:049][122]LogAudio: Display: Audio Device (ID: 5) registered with world 'Untitled'.
+[2022.11.24-16.15.13:134][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.24-16.15.13:138][122]LogNet: Browse: 127.0.0.1:17777/Engine/Maps/Templates/OpenWorld
+[2022.11.24-16.15.13:138][122]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.11.24-16.15.13:139][122]LogNet: Created socket for bind address: 0.0.0.0:0
+[2022.11.24-16.15.13:140][122]LogNet: IpConnection_0 setting maximum channels to: 32767
+[2022.11.24-16.15.13:141][122]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.24-16.15.13:156][122]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 7
+[2022.11.24-16.15.13:157][122]LogNet: Game client on port 17777, rate 100000
+[2022.11.24-16.15.13:158][122]LogNetVersion: CreatorChallenge1 1.0.0.0, NetCL: 23058290, EngineNetVer: 30, GameNetVer: 0 (Checksum: 3092431725)
+[2022.11.24-16.15.13:168][122]PIE: Client logged in
+[2022.11.24-16.15.13:169][122]PIE: Play in editor total start time 0.247 seconds.
+[2022.11.24-16.15.13:206][122]LogViewport: Scene viewport resized to 641x480, mode Windowed.
+[2022.11.24-16.15.14:193][142]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62972
+[2022.11.24-16.15.14:193][142]LogHandshake: SendConnectChallenge. Timestamp: 1.310368, Cookie: 009045087047237200050034126028062012091218005224132191171166
+[2022.11.24-16.15.14:194][142]LogHandshake: Cached server SessionID: 0
+[2022.11.24-16.15.14:195][142]LogHandshake: SendChallengeResponse. Timestamp: 1.310368, Cookie: 009045087047237200050034126028062012091218005224132191171166
+[2022.11.24-16.15.14:218][143]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62972
+[2022.11.24-16.15.14:218][143]LogHandshake: SendChallengeAck. InCookie: 009045087047237200050034126028062012091218005224132191171166
+[2022.11.24-16.15.14:218][143]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62972
+[2022.11.24-16.15.14:218][143]LogNet: IpConnection_1 setting maximum channels to: 32767
+[2022.11.24-16.15.14:219][143]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.24-16.15.14:221][143]LogNet: NotifyAcceptedConnection: Name: LoginLevel, TimeStamp: 11/24/22 16:15:14, [UNetConnection] RemoteAddr: 127.0.0.1:62972, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.24-16.15.14:221][143]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62972, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.24-16.15.14:223][143]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.24-16.15.14:245][144]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_0_LoginLevel.LoginLevel: Accepted
+[2022.11.24-16.15.14:247][144]LogNet: Remote platform little endian=1
+[2022.11.24-16.15.14:247][144]LogNet: This platform little endian=1
+[2022.11.24-16.15.14:255][144]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2022.11.24-16.15.14:268][145]LogNet: Login request: ?Name=LAPTOP-I19E2VM6-65716FB84D11ED395C8B18B7A5379C31 userId: NULL:LAPTOP-I19E2VM6-65716FB84D11ED395C8B18B7A5379C31 platform: NULL
+[2022.11.24-16.15.14:270][145]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_0_LoginLevel, Game: /Script/Engine.GameModeBase)
+[2022.11.24-16.15.14:271][145]LogLoad: LoadMap: 127.0.0.1:17777/Game/Levels/LoginLevel?game=/Script/Engine.GameModeBase
+[2022.11.24-16.15.14:271][145]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2022.11.24-16.15.14:275][145]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.24-16.15.14:276][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.15.14:303][145]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.24-16.15.14:320][145]LogUObjectHash: Compacting FUObjectHashTables data took  15.80ms
+[2022.11.24-16.15.14:330][145]LogAudio: Display: Audio Device (ID: 5) registered with world 'LoginLevel'.
+[2022.11.24-16.15.14:330][145]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.24-16.15.14:331][145]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2022.11.24-16.15.14:332][145]LogWorld: Bringing World /Game/Levels/UEDPIE_1_LoginLevel.LoginLevel up for play (max tick rate 60) at 2022.11.24-16.15.14
+[2022.11.24-16.15.14:333][145]LogWorld: Bringing up level for play took: 0.001765
+[2022.11.24-16.15.14:334][145]LogLoad: Took 0.063575 seconds to LoadMap(/Game/Levels/LoginLevel)
+[2022.11.24-16.15.14:354][146]LogNet: Client netspeed is 100000
+[2022.11.24-16.15.14:354][146]LogNet: Join request: /Engine/Maps/Templates/OpenWorld?Name=LAPTOP-I19E2VM6-65716FB84D11ED395C8B18B7A5379C31?SplitscreenCount=1
+[2022.11.24-16.15.14:372][146]LogNet: Join succeeded: LAPTOP-I19E2VM6-6571
+[2022.11.24-16.15.19:865][331]LogNet: Browse: /Game/Levels/TestLevel?listen
+[2022.11.24-16.15.19:865][331]LogLoad: LoadMap: /Game/Levels/TestLevel?listen
+[2022.11.24-16.15.19:865][331]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_1_LoginLevel
+[2022.11.24-16.15.19:866][331]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2022.11.24-16.15.19:866][331]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2022.11.24-16.15.19:868][331]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-I19E2VM6-65716FB84D11ED395C8B18B7A5379C31, Channels: 11, Time: 2022.11.24-16.15.19
+[2022.11.24-16.15.19:868][331]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-I19E2VM6-65716FB84D11ED395C8B18B7A5379C31
+[2022.11.24-16.15.19:869][331]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2022.11.24-16.15.19:871][331]LogWorld: UWorld::CleanupWorld for LoginLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.24-16.15.19:871][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.15.19:884][331]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.24-16.15.19:894][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.11.24-16.15.20:232][331]LogAudio: Display: Audio Device (ID: 5) registered with world 'TestLevel'.
+[2022.11.24-16.15.20:232][331]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.24-16.15.20:232][331]LogAIModule: Creating AISystem for world TestLevel
+[2022.11.24-16.15.20:233][331]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2022.11.24-16.15.20:233][331]LogLoad: Game class is 'GameMode_BP_C'
+[2022.11.24-16.15.20:235][331]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.11.24-16.15.20:235][331]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.11.24-16.15.20:235][331]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.11.24-16.15.20:235][331]LogNet: Created socket for bind address: 0.0.0.0:7777
+[2022.11.24-16.15.20:235][331]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.24-16.15.20:235][331]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2022.11.24-16.15.20:239][331]LogWorld: Bringing World /Game/Levels/UEDPIE_1_TestLevel.TestLevel up for play (max tick rate 60) at 2022.11.24-16.15.20
+[2022.11.24-16.15.20:240][331]LogWorld: Bringing up level for play took: 0.004335
+[2022.11.24-16.15.20:245][331]LogLoad: Took 0.380077 seconds to LoadMap(/Game/Levels/TestLevel)
+[2022.11.24-16.15.20:302][332]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2022.11.24-16.15.20:302][332]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62972, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-I19E2VM6-65716FB84D11ED395C8B18B7A5379C31
+[2022.11.24-16.15.20:302][332]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62972, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-I19E2VM6-65716FB84D11ED395C8B18B7A5379C31, Channels: 11, Time: 2022.11.24-16.15.20
+[2022.11.24-16.15.20:302][332]LogNet: UNetConnection::SendCloseReason:
+[2022.11.24-16.15.20:302][332]LogNet:  - Result=ControlChannelClose, ErrorContext="ControlChannelClose"
+[2022.11.24-16.15.20:302][332]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62972, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-I19E2VM6-65716FB84D11ED395C8B18B7A5379C31
+[2022.11.24-16.15.20:880][333]LogShaderCompilers: Display: ================================================
+[2022.11.24-16.15.20:880][333]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.24-16.15.20:880][333]LogShaderCompilers: Display: Total job queries 25, among them cache hits 3 (12.00%)
+[2022.11.24-16.15.20:880][333]LogShaderCompilers: Display: Tracking 22 distinct input hashes that result in 12 distinct outputs (54.55%)
+[2022.11.24-16.15.20:881][333]LogShaderCompilers: Display: RAM used: 0.12 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.03%
+[2022.11.24-16.15.20:881][333]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.24-16.15.20:881][333]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.11.24-16.15.20:881][333]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.11.24-16.15.20:881][333]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.11.24-16.15.20:881][333]LogShaderCompilers: Display: ================================================
+[2022.11.24-16.15.32:003][680]LogOnlineSession: OSS: Join session: traveling to 192.168.1.208:7777
+[2022.11.24-16.15.32:004][680]LogNet: Browse: 192.168.1.208/Engine/Maps/Templates/OpenWorld
+[2022.11.24-16.15.32:005][680]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2022.11.24-16.15.32:005][680]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2022.11.24-16.15.32:005][680]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2022.11.24-16.15.32:005][680]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.11.24-16.15.32:006][680]LogNet: Created socket for bind address: 0.0.0.0:0
+[2022.11.24-16.15.32:006][680]LogNet: IpConnection_2 setting maximum channels to: 32767
+[2022.11.24-16.15.32:006][680]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.24-16.15.32:009][680]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 0
+[2022.11.24-16.15.32:009][680]LogNet: Game client on port 7777, rate 100000
+[2022.11.24-16.15.33:012][722]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.208:50904
+[2022.11.24-16.15.33:012][722]LogHandshake: SendConnectChallenge. Timestamp: 13.154611, Cookie: 115236059230040175158077073076084143225125070023113140213206
+[2022.11.24-16.15.33:035][723]LogHandshake: Cached server SessionID: 0
+[2022.11.24-16.15.33:035][723]LogHandshake: SendChallengeResponse. Timestamp: 13.154611, Cookie: 115236059230040175158077073076084143225125070023113140213206
+[2022.11.24-16.15.33:036][723]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.208:50904
+[2022.11.24-16.15.33:036][723]LogHandshake: SendChallengeAck. InCookie: 115236059230040175158077073076084143225125070023113140213206
+[2022.11.24-16.15.33:036][723]LogNet: Server accepting post-challenge connection from: 192.168.1.208:50904
+[2022.11.24-16.15.33:037][723]LogNet: IpConnection_3 setting maximum channels to: 32767
+[2022.11.24-16.15.33:038][723]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.24-16.15.33:047][723]LogNet: NotifyAcceptedConnection: Name: TestLevel, TimeStamp: 11/24/22 16:15:33, [UNetConnection] RemoteAddr: 192.168.1.208:50904, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.24-16.15.33:048][723]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.1.208:50904, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.24-16.15.33:059][724]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 192.168.1.208:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.24-16.15.33:060][724]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_TestLevel.TestLevel: Accepted
+[2022.11.24-16.15.33:060][724]LogNet: Remote platform little endian=1
+[2022.11.24-16.15.33:060][724]LogNet: This platform little endian=1
+[2022.11.24-16.15.33:090][725]LogNet: Login request: ?Name=LAPTOP-I19E2VM6-0007E48D4BD9AB64BC859B854A46B339 userId: NULL:LAPTOP-I19E2VM6-0007E48D4BD9AB64BC859B854A46B339 platform: NULL
+[2022.11.24-16.15.33:109][726]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_TestLevel, Game: /Game/BluePrints/GameMode_BP.GameMode_BP_C)
+[2022.11.24-16.15.33:110][726]LogLoad: LoadMap: 192.168.1.208/Game/Levels/TestLevel?game=/Game/BluePrints/GameMode_BP.GameMode_BP_C
+[2022.11.24-16.15.33:110][726]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LoginLevel
+[2022.11.24-16.15.33:111][726]LogWorld: UWorld::CleanupWorld for LoginLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.24-16.15.33:111][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.15.33:124][726]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.24-16.15.33:143][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.11.24-16.15.33:148][726]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestLevel'.
+[2022.11.24-16.15.33:148][726]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.24-16.15.33:149][726]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2022.11.24-16.15.33:150][726]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.11.24-16.15.33
+[2022.11.24-16.15.33:150][726]LogWorld: Bringing up level for play took: 0.001227
+[2022.11.24-16.15.33:150][726]LogLoad: Took 0.040647 seconds to LoadMap(/Game/Levels/TestLevel)
+[2022.11.24-16.15.33:151][726]LogNet: Client netspeed is 100000
+[2022.11.24-16.15.33:151][726]LogNet: Join request: /Engine/Maps/Templates/OpenWorld?Name=LAPTOP-I19E2VM6-0007E48D4BD9AB64BC859B854A46B339?SplitscreenCount=1
+[2022.11.24-16.15.33:155][726]LogNet: Join succeeded: LAPTOP-I19E2VM6-0007
+[2022.11.24-16.15.48:298][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.24-16.15.48:298][224]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_1_TestLevel
+[2022.11.24-16.15.48:301][224]LogSlate: Window 'CreatorChallenge1 Preview [NetMode: Client 1]  (64-bit/D3D Shader Model 6)' being destroyed
+[2022.11.24-16.15.48:321][224]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.24-16.15.48:322][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.15.48:322][224]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2022.11.24-16.15.48:323][224]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2022.11.24-16.15.48:326][224]LogNet: UNetConnection::SendCloseReason:
+[2022.11.24-16.15.48:326][224]LogNet:  - Result=HostClosedConnection, ErrorContext="HostClosedConnection"
+[2022.11.24-16.15.48:327][224]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 192.168.1.208:50904, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_BP_C_1, Owner: PlayerController_BP_C_1, UniqueId: NULL:LAPTOP-I19E2VM6-0007E48D4BD9AB64BC859B854A46B339
+[2022.11.24-16.15.48:327][224]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.208:50904, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_BP_C_1, Owner: PlayerController_BP_C_1, UniqueId: NULL:LAPTOP-I19E2VM6-0007E48D4BD9AB64BC859B854A46B339, Channels: 10, Time: 2022.11.24-16.15.48
+[2022.11.24-16.15.48:327][224]LogNet: UNetConnection::SendCloseReason:
+[2022.11.24-16.15.48:327][224]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2022.11.24-16.15.48:327][224]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.208:50904, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_BP_C_1, Owner: PlayerController_BP_C_1, UniqueId: NULL:LAPTOP-I19E2VM6-0007E48D4BD9AB64BC859B854A46B339
+[2022.11.24-16.15.48:328][224]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2022.11.24-16.15.48:330][224]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2022.11.24-16.15.48:331][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.24-16.15.48:331][224]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.24-16.15.48:331][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.15.48:333][224]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2022.11.24-16.15.48:333][224]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2022.11.24-16.15.48:333][224]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.208:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_BP_C_0, Owner: PlayerController_BP_C_0, UniqueId: NULL:LAPTOP-I19E2VM6-0007E48D4BD9AB64BC859B854A46B339, Channels: 10, Time: 2022.11.24-16.15.48
+[2022.11.24-16.15.48:333][224]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.208:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_BP_C_0, Owner: PlayerController_BP_C_0, UniqueId: NULL:LAPTOP-I19E2VM6-0007E48D4BD9AB64BC859B854A46B339
+[2022.11.24-16.15.48:333][224]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2022.11.24-16.15.48:335][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.24-16.15.48:337][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.24-16.15.48:348][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.24-16.15.48:349][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.11.24-16.15.48:358][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.11.24-16.15.48:364][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.11.24-16.15.48:365][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.11.24-16.15.48:384][224]LogUObjectHash: Compacting FUObjectHashTables data took   9.32ms
+[2022.11.24-16.15.48:418][225]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.11.24-16.15.48:418][225]LogPlayLevel: Display: Destroying online subsystem :Context_3
