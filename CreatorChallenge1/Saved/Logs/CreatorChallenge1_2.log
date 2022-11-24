@@ -2324,3 +2324,8 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.24-11.32.04:625][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 219 ms (total: 7.03 sec)
 [2022.11.24-11.32.04:632][858]AssetCheck: New page: Asset Save: TestLevel
 [2022.11.24-11.32.04:632][858]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TestLevel.TestLevel
+[2022.11.24-11.32.37:900][ 27]LogDerivedDataCache: C:/Users/danny/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.473 and deleted 0 files with total size 0 MiB. Scanned 2030 files in 2021 folders with total size 50 MiB.
+[2022.11.24-11.33.17:664][361]LogSlate: Window 'Message' being destroyed
+[2022.11.24-11.33.17:669][361]Message dialog closed, result: Cancel, title: Message, text: EncryptionKey must contain 64 hex characters
+[2022.11.24-11.33.43:708][484]LogSlate: Window 'Project Settings' being destroyed
+[2022.11.24-11.33.43:715][484]LogSlate: Window 'Project Settings' being destroyed
